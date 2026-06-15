@@ -278,3 +278,11 @@
   /* ---------- kolam ---------- */
   .kolam-divider { display: flex; justify-content: center; padding: 0; pointer-events: none; }
 }
+
+/* Emergency fix: never allow reveal content to stay hidden */
+.reveal,
+.reveal.visible {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
