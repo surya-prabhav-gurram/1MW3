@@ -286,3 +286,11 @@
   transform: none !important;
   visibility: visible !important;
 }
+
+/* Emergency fix: never allow reveal content to stay hidden */
+.reveal,
+.reveal.visible {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
