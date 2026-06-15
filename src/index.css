@@ -185,9 +185,9 @@
 
   /* ---------- reveal ---------- */
   .reveal {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
   .reveal.visible { opacity: 1; transform: translateY(0); }
   .reveal-1.visible { transition-delay:   0ms; }
